@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildpath>
+	<buildpathentry kind="lib" path="node_modules/webdriver-js-extender/node_modules/adm-zip/test/assets/attributes_test.zip"/>
+	<buildpathentry kind="lib" path="node_modules/webdriver-js-extender/node_modules/adm-zip/test/assets/fast.zip"/>
+	<buildpathentry kind="lib" path="node_modules/webdriver-js-extender/node_modules/adm-zip/test/assets/fastest.zip"/>
+	<buildpathentry kind="lib" path="node_modules/webdriver-js-extender/node_modules/adm-zip/test/assets/linux_arc.zip"/>
+	<buildpathentry kind="lib" path="node_modules/webdriver-js-extender/node_modules/adm-zip/test/assets/maximum.zip"/>
+	<buildpathentry kind="lib" path="node_modules/webdriver-js-extender/node_modules/adm-zip/test/assets/normal.zip"/>
+	<buildpathentry kind="lib" path="node_modules/webdriver-js-extender/node_modules/adm-zip/test/assets/store.zip"/>
+	<buildpathentry kind="lib" path="node_modules/webdriver-js-extender/node_modules/adm-zip/test/assets/ultra.zip"/>
+	<buildpathentry kind="con" path="org.eclipse.php.core.LANGUAGE"/>
+	<buildpathentry kind="src" path="vendor/composer">
+		<attributes>
+			<attribute name="composer" value="vendor"/>
+		</attributes>
+	</buildpathentry>
+	<buildpathentry kind="src" path="vendor/symfony/polyfill-mbstring">
+		<attributes>
+			<attribute name="composer" value="vendor"/>
+		</attributes>
+	</buildpathentry>
+	<buildpathentry kind="src" path="vendor/twig/twig/lib">
+		<attributes>
+			<attribute name="composer" value="vendor"/>
+		</attributes>
+	</buildpathentry>
+	<buildpathentry kind="src" path="vendor/twig/twig/src">
+		<attributes>
+			<attribute name="composer" value="vendor"/>
+		</attributes>
+	</buildpathentry>
+</buildpath>

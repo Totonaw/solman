@@ -1,0 +1,14 @@
+{
+	"name" : "solman/solman",
+	"description" : "solman website using phalcon framework",
+	"type" : "project",
+	"require" : {
+		"twig/twig" : "~2.0",
+		"datatables/datatables": "1.10.15"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Twig\\" : "vendor/twig/twig/lib"
+		}
+	}
+}
