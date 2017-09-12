@@ -30,6 +30,7 @@ class Module implements ModuleDefinitionInterface
      */
     public function init($di)
     {
+
         if ($di) {
             $this->viewPath = ROOT_PATH . $di->get('config')->view->backend->views;
             $this->controllerPath = ROOT_PATH . $di->get('config')->application->backend->controllers;
@@ -41,9 +42,11 @@ class Module implements ModuleDefinitionInterface
         $this->init($di);
         
         $loader = new Loader();
+
         $loader->registerNamespaces([
             'Solman\Admin\Controllers' => $this->controllerPath
         ]);
+
         $loader->register();
     }
 
@@ -65,10 +68,12 @@ class Module implements ModuleDefinitionInterface
             $eventsManager = new EventsManager();
             $eventsManager->attach('dispatch:beforeDispatch', function ($event, $dispatcher, $e) {
                 // logger
+
             });
             
             $eventsManager->attach("dispatch:beforeException", function ($event, $dispatcher, $exception) {
-                if ($exception instanceof DispatchException) {
+                
+		if ($exception instanceof DispatchException) {
                     $dispatcher->forward(array(
                         'controller' => 'index',
                         'action' => 'error'

@@ -8,7 +8,7 @@ return [
     Solman\Services\ViewService::class,
     Solman\Services\RouterService::class,
     Solman\Services\SessionService::class,
-    Solman\Services\UrlService::class,
+    Solman\Services\UrlService::class
 ];
 
 /*

@@ -26,13 +26,14 @@ class RouterService extends AbstractService{
             $this->serviceName,
             function() use($routerGroup,$listModules){
                 $router = new Router();
+
                 //hilangin // diakhir url
                 $router->removeExtraSlashes(true);
 //                $router->setDefaultController('index');
 //                $router->setDefaultAction('index');
                 
                 $router->setDefaultModule('frontend');
-                
+               
 //                 masih bingung dng group
                 foreach($routerGroup as $key=>$group){
                     $router->mount($group);

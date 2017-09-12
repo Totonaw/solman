@@ -29,7 +29,7 @@ class RouterGroupService{
     public function setRoute($pattern="", $path=[]){
         //set wildcard if not provided
         if($pattern == "" && empty($path)){
-            
+          
             $this->routerGroup->add('',
                 [
                     'controller'=>'index',

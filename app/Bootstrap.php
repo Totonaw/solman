@@ -61,7 +61,8 @@ class Bootstrap extends Application
 
     public function init()
     {
-        $this->handle()->send();
+       $this->handle()->send();
+
     }
 
 }
