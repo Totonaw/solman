@@ -21,6 +21,7 @@ class UrlService extends AbstractService{
             function() {
                 $url = new Url();
                 $url->setBaseUri('/Solman/');
+                
                 return $url;
             });
         

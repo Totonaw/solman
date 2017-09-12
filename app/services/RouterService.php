@@ -64,7 +64,7 @@ class RouterService extends AbstractService{
                         ]
                         );
                     */
-                }            
+                }
                 return $router;
             });
         

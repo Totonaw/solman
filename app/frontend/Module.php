@@ -46,14 +46,16 @@ class Module implements ModuleDefinitionInterface
             //set not found each module
             $eventsManager = new EventsManager();
             $eventsManager->attach('dispatch:beforeDispatch',
+                
                 function($event, $dispatcher,$e){
+                   
                     //logger
                 }
             );
-            
+           
             $eventsManager->attach("dispatch:beforeException",
                 function($event, $dispatcher, $exception) {
-                    
+                   
                     if ($exception instanceof DispatchException) {
                         $dispatcher->forward(array(
                             'controller' => 'index',
