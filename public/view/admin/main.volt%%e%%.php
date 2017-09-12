@@ -10,7 +10,9 @@ a:9:{i:0;s:396:"<!DOCTYPE html>
 	
 	<!-- css here -->
 	<?= $this->assetsGlobal->outputCss('css') ?>
-
+	";s:3:"css";a:1:{i:0;a:4:{s:4:"type";i:357;s:5:"value";s:2:"
+	";s:4:"file";s:43:"/var/www/solman/public/view/admin/main.volt";s:4:"line";i:14;}}i:1;s:3481:"
+	
 	<style>
 		html,body,#main{
 			height:100%;
@@ -182,10 +184,11 @@ a:9:{i:0;s:396:"<!DOCTYPE html>
 		<div class="content">
 			<div class="panel panel-default">
 				<div class="panel-heading title">
-
+				";s:5:"title";a:1:{i:0;a:4:{s:4:"type";i:357;s:5:"value";s:1:" ";s:4:"file";s:43:"/var/www/solman/public/view/admin/main.volt";s:4:"line";i:187;}}i:2;s:50:"
 				</div>
 				<div class="panel-body">
 				
+				";s:7:"content";N;i:3;s:156:"
 				</div>
 			</div>
 			
@@ -197,7 +200,10 @@ a:9:{i:0;s:396:"<!DOCTYPE html>
 	</footer>
 	</div>
 	
-
+	
+	";s:10:"javascript";a:1:{i:0;a:4:{s:4:"type";i:357;s:5:"value";s:2:"
+	";s:4:"file";s:43:"/var/www/solman/public/view/admin/main.volt";s:4:"line";i:205;}}i:4;s:18:"
 </body>
 
 </html>
+";}
