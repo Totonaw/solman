@@ -13,7 +13,7 @@ use Phalcon\Mvc\Dispatcher\Exception as DispatchException;
 
 class Module implements ModuleDefinitionInterface
 {
-    protected $defaultNamespace = 'Solman\Frontend\Controllers\\';
+   protected $defaultNamespace = 'Solman\Frontend\Controllers';
     
     /**
      * Registers the module auto-loader
@@ -25,11 +25,13 @@ class Module implements ModuleDefinitionInterface
         $loader = new Loader();
         $loader->registerNamespaces(
             [
-                'Solman\Frontend\Controllers' => '../apps/frontend/controllers/',
-                'Solman\Frontend\Models'      => '../apps/frontend/models/',
+                'Solman\Frontend\Controllers' => ROOT_PATH.'app/frontend/controllers/',
+                'Solman\Frontend\Models'      => ROOT_PATH.'app/frontend/models/',
             ]
             );
+
         $loader->register();
+
     }
     /**
      * Registers services related to the module
@@ -48,12 +50,16 @@ class Module implements ModuleDefinitionInterface
             $eventsManager->attach('dispatch:beforeDispatch',
                 function($event, $dispatcher,$e){
                     //logger
-                }
+                var_dump($dispatcher->getActionName());
+                    var_dump($dispatcher->getControllerName());
+		 }
             );
-            
+           
+	   
             $eventsManager->attach("dispatch:beforeException",
                 function($event, $dispatcher, $exception) {
-                    
+                   var_dump($dispatcher->getControllerName());
+		   //echo '<pre>';var_dump($exception);echo '</pre>';die; 
                     if ($exception instanceof DispatchException) {
                         $dispatcher->forward(array(
                             'controller' => 'index',

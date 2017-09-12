@@ -20,8 +20,8 @@ class UrlService extends AbstractService{
             $this->serviceName,
             function() {
                 $url = new Url();
-                $url->setBaseUri('/Solman/');
-                return $url;
+                $url->setBaseUri('/');
+		return $url;
             });
         
     }   

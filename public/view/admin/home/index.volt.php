@@ -161,6 +161,7 @@
 			</div>
 		</nav>
 	</header>
+	<!-- 8/22/2017 -->
 	<aside class="left menu">
 			<div class="sidebar">
 				<div class="user-menu">

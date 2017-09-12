@@ -1,4 +1,4 @@
-a:9:{i:0;s:408:"<!DOCTYPE html>
+a:9:{i:0;s:396:"<!DOCTYPE html>
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -10,8 +10,8 @@ a:9:{i:0;s:408:"<!DOCTYPE html>
 	
 	<!-- css here -->
 	<?= $this->assetsGlobal->outputCss('css') ?>
-	";s:3:"css";a:1:{i:0;a:4:{s:4:"type";i:357;s:5:"value";s:3:"
-	";s:4:"file";s:46:"D:\Project\Solman//public/view/admin/main.volt";s:4:"line";i:14;}}i:1;s:3633:"
+	";s:3:"css";a:1:{i:0;a:4:{s:4:"type";i:357;s:5:"value";s:2:"
+	";s:4:"file";s:43:"/var/www/solman/public/view/admin/main.volt";s:4:"line";i:14;}}i:1;s:3481:"
 	
 	<style>
 		html,body,#main{
@@ -161,6 +161,7 @@ a:9:{i:0;s:408:"<!DOCTYPE html>
 			</div>
 		</nav>
 	</header>
+	<!-- 8/22/2017 -->
 	<aside class="left menu">
 			<div class="sidebar">
 				<div class="user-menu">
@@ -183,11 +184,11 @@ a:9:{i:0;s:408:"<!DOCTYPE html>
 		<div class="content">
 			<div class="panel panel-default">
 				<div class="panel-heading title">
-				";s:5:"title";a:1:{i:0;a:4:{s:4:"type";i:357;s:5:"value";s:1:" ";s:4:"file";s:46:"D:\Project\Solman//public/view/admin/main.volt";s:4:"line";i:186;}}i:2;s:54:"
+				";s:5:"title";a:1:{i:0;a:4:{s:4:"type";i:357;s:5:"value";s:1:" ";s:4:"file";s:43:"/var/www/solman/public/view/admin/main.volt";s:4:"line";i:187;}}i:2;s:50:"
 				</div>
 				<div class="panel-body">
 				
-				";s:7:"content";N;i:3;s:169:"
+				";s:7:"content";N;i:3;s:156:"
 				</div>
 			</div>
 			
@@ -200,8 +201,8 @@ a:9:{i:0;s:408:"<!DOCTYPE html>
 	</div>
 	
 	
-	";s:10:"javascript";a:1:{i:0;a:4:{s:4:"type";i:357;s:5:"value";s:3:"
-	";s:4:"file";s:46:"D:\Project\Solman//public/view/admin/main.volt";s:4:"line";i:204;}}i:4;s:22:"
+	";s:10:"javascript";a:1:{i:0;a:4:{s:4:"type";i:357;s:5:"value";s:2:"
+	";s:4:"file";s:43:"/var/www/solman/public/view/admin/main.volt";s:4:"line";i:205;}}i:4;s:18:"
 </body>
 
 </html>
